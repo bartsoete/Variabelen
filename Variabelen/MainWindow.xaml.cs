@@ -31,6 +31,8 @@ namespace Variabelen
 
             getal = 50;
 
+            getal += 100;
+
             tbVariabele.Text = getal.ToString();
         }
     }
