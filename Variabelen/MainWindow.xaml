@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBlock x:Name="tbVariabele" HorizontalAlignment="Left" Margin="75,83,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="btnContentVar" Content="Variabele" HorizontalAlignment="Left" Margin="191,84,0,0" VerticalAlignment="Top" Width="75" Click="btnContentVar_Click"/>
+
     </Grid>
 </Window>

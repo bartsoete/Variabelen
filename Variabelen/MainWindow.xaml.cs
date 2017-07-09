@@ -24,5 +24,14 @@ namespace Variabelen
         {
             InitializeComponent();
         }
+
+        private void btnContentVar_Click(object sender, RoutedEventArgs e)
+        {
+            int getal;
+
+            getal = 50;
+
+            tbVariabele.Text = getal.ToString();
+        }
     }
 }
