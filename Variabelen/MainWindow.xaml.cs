@@ -27,13 +27,10 @@ namespace Variabelen
 
         private void btnContentVar_Click(object sender, RoutedEventArgs e)
         {
-            int getal;
-
-            getal = 50;
-
+            int getal = 50;
             getal += 100;
-
             tbVariabele.Text = getal.ToString();
+            
         }
     }
 }
